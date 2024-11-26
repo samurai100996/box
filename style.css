@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: aqua;
+    border: 2px solid red;
+    /*padding: 40px;*/
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+p {
+    background-color: azure;
+    border: 2px solid black;
+}
+
+.box2 {
+    padding: 40px;
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    border: 2px solid black;
+}
