@@ -8,13 +8,13 @@ body {
 }
 
 .header {
-    height: 20px;
+    height: 11px;
     background-color: #2C3E50;
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
 .C1,
@@ -29,7 +29,7 @@ body {
     background-color: #18BC9C;
     display: flex;
     justify-content: center;
-    height: 320px;
+    height: 450px;
     align-items: center;
     color: aliceblue;
     font-size: 31px;
@@ -41,10 +41,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
     gap: 20px;
     flex-direction: column;
-
+padding-top: 20px;
     background-color: #f7f7f7;
     height: 100px;
 }
@@ -56,8 +55,8 @@ body {
 }
 
 .sub-bottom input {
-    padding: 5px 10px;
-    width: 25vw;
+    padding: 8px 10px;
+    width: 23vw;
 }
 
 .sub-bottom button {
@@ -66,30 +65,53 @@ body {
     background-color: #18BC9C;
     color: aliceblue;
     border-radius: 4px;
+    
 }
 
-.tag {
+.grasstag {
     font-size: 20px;
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 5px;
-    gap: 20px;
-    flex-direction: column;
+    padding-top: 35px;
+    gap: 120px;
     color: #999;
     font-size: 30px;
     background-color: #f7f7f7;
-    height: 8vw;
+    height: 3vw;
 }
-
-.Grass8 {
-    padding: 50px;
+.Grass8{
     background-color: #f7f7f7;
     display: flex;
-    justify-content: center;
-    height: 320px;
+    justify-content: start;
+    gap: 20px;
+    padding-top: 33px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.G1{
+    height: 350px;
+    background-color: #ffffff;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    color: rgb(0, 0, 0);
-    font-size: 31px;
-    gap: 35px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    gap: 5px;
+}
+.img {   border-radius: 334px;
+}
+.heading{
+    padding-top: 30px;
+    font-weight: bold;
+    color: #2C3E50;
+    font-size: larger;
+}
+.para{
+    font-size: small;
+    color: #333333;
+    padding: 9px;
 }
