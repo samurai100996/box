@@ -8,7 +8,9 @@ body {
 }
 
 .header {
-    height: 11px;
+    top: 0;
+    position: sticky;
+    height: 15px;
     background-color: #2C3E50;
     display: flex;
     justify-content: space-between;
@@ -114,4 +116,80 @@ padding-top: 20px;
     font-size: small;
     color: #333333;
     padding: 9px;
+}
+.Grass2{background-color: #f7f7f7;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+    padding-top: 33px;
+    padding-left: 140px;
+    padding-right: 140px;
+    height: 350px;
+}
+.G2 {
+    height: 350px;
+    background-color: #ffffff;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    gap: 5px;
+    
+}
+.Grass3 {
+    background-color: #f7f7f7;
+        display: flex;
+        justify-content: start;
+        gap: 20px;
+        padding-top: 33px;
+        padding-left: 140px;
+        padding-right: 140px;
+        padding-bottom: 120px;
+}
+.footer {
+    background-color: #2C3E50;
+    display: flex;
+    height: 182px;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.G3{
+    height: 350px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-size: smaller;
+}
+.row {
+    display: flex;
+    text-align: center;
+    gap: 70px;
+    justify-content: center;
+    padding-left: 35px ;
+}
+h5{
+    color:#ffffff ;
+    font-size: 30px;
+
+}
+.p{
+    width: 360px;
+    padding-top: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    
+}
+.G1:hover,.G2:hover,.G3:hover{
+    background-color: #18BC9C;
+    transition: background-color 0.3s ease;
 }
